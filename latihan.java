@@ -3,7 +3,7 @@ public class latihan {
     public static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
         int  I, R1, R2, R3, R4;
-        Double V;
+        float V;
         System.out.println("TOTAL I:");
         I = sc.nextInt();
         System.out.println("input R1:");
@@ -14,10 +14,8 @@ public class latihan {
         R3=sc.nextInt();
         System.out.println("input R4:");
         R4=sc.nextInt();
-        
-        V = I * (R1+R2+R3+R4);
-
-        
+        V = I*(R1+R2+R3+R4);
+        System.out.println("hasil perhitunagan\t:" +V);
 
         
     }

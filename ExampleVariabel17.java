@@ -5,7 +5,6 @@ public class ExampleVariabel17 {
         char gender = 'M';
         byte _age = 18;
         double $gpa = 3.38, height = 1.68;
-        
         System.out.println(oneOfMyHobies);
         System.out.println("are you smart?" + isSmart);
         System.out.println("gender:" + gender );
